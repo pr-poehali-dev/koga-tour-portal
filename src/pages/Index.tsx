@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Icon from "@/components/ui/icon";
+import InteractiveMap from "@/components/InteractiveMap";
 
 const Index = () => {
   return (
@@ -264,20 +265,7 @@ const Index = () => {
               Интерактивная карта главных мест города
             </p>
           </div>
-          <div className="bg-gray-100 rounded-lg p-8 text-center">
-            <Icon name="MapPin" size={64} className="text-kogalym-blue mx-auto mb-4" />
-            <h3 className="font-montserrat text-xl font-semibold text-gray-900 mb-2">
-              Интерактивная карта
-            </h3>
-            <p className="font-open-sans text-gray-600 mb-6">
-              Здесь будет размещена интерактивная карта с отмеченными достопримечательностями, 
-              маршрутами и точками интереса
-            </p>
-            <Button className="bg-kogalym-blue hover:bg-blue-700">
-              <Icon name="Navigation" size={20} className="mr-2" />
-              Открыть карту
-            </Button>
-          </div>
+          <InteractiveMap />
         </div>
       </section>
 
