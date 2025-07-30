@@ -11,7 +11,7 @@ const Index = () => {
       <header className="bg-white shadow-sm border-b">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="font-montserrat font-bold text-2xl text-kogalym-blue">
-            КОГАЛЫМ ПОРТАЛ
+            Когалым - прикипаешь сердцем!
           </div>
           <nav className="hidden md:flex space-x-8">
             <a href="#" className="font-open-sans text-gray-700 hover:text-kogalym-blue transition-colors">О городе</a>
@@ -274,7 +274,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="font-montserrat text-xl font-bold mb-4">Когалым Портал</h3>
+              <h3 className="font-montserrat text-xl font-bold mb-4">Когалым - прикипаешь сердцем!</h3>
               <p className="font-open-sans text-gray-400 text-sm">
                 Ваш путеводитель по удивительному северному городу
               </p>
@@ -311,7 +311,7 @@ const Index = () => {
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center">
             <p className="font-open-sans text-sm text-gray-400">
-              © 2024 Когалым Портал. Все права защищены.
+              © 2024 Когалым - прикипаешь сердцем! Все права защищены.
             </p>
           </div>
         </div>
